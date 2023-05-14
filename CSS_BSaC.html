@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>CSS Basic,Selectiors and Combinators</title>
+ <link rel="stylesheet" type="text/css" href="css basic,selectors and combinators.css">
+ <link rel="icon" type="pbl/x-icon" href="pbl/fav.png">
+</head>
+<body>
+
+<div class="top-header">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="pbl/logo.jpg" alt="logo" class="logo-img">
+        </div>
+
+        <ul class="col cols6">
+          <li class="li"><a href="index.html">HOME</a></li>
+          <li><a href="htmlmain2.html">HTML</a></li>
+          <li><a href="cssmain.html">CSS</a></li>
+          <li><a href="quizzes.html">QUIZZES</a></li>
+          <li><a href="ourteam.html" class="abtus">ABOUT US</a></li>
+          <li class="isa"><a href="signin.html">SIGN UP</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  
+ <ul class="nav col-3">
+       <a href="#add"><p>★ How to add CSS</p></a>
+
+       <a href="#basic"><p>★ CSS basic</p></a>
+
+       <a href="#select"><p>★ CSS Selectors</p></a>
+
+       <a href="#combine"><p>★ CSS Combinators</p></a>
+
+    </ul>
+
+ <div class="css col-6">
+  <p class="cssp"><b>CSS Cascading Style Sheets</b><br>
+  CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
+ </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="yup">
+  <div class="box_modelh" id="add">
+    <p id="box_modelh">How to add CSS</p>
+    <p id="box_modelp">There are 3 WAYS for style of CSS. We can use whatever we prefer.</p>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>Inline Style (Using style attribute)</i></p>
+    <p class="boxp"> We have to use that style in the tag with as the attribute. Advantage is we can see the style for only one tag.</p>
+    <img src="pbl/inline.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>Inline Style (Using style attribute)</i></p>
+    <p class="boxp"> We have to use that style in the head seaction with as the style tag. Advantage is we can see clearly the codes.</p>
+    <img src="pbl/inline2.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>External Style (Using the another css file and link together)</i></p>
+    <p class="boxp"> We have to use that style as the spreating the file. Advantage is we can see clearly the codes in the another file but we link each file in the head seaction.</p>
+    <img src="pbl/external.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxp"> rel=relation<br>
+href=hypertext reference (file name)<br>
+< link rel=”stylesheet” href=”smth.css” ></p>
+    <br>
+  </div>
+</div>
+
+<div class="yup">
+  <div class="boxd col-12">
+    <p class="boxt" id="basic"><i>Basic CSS</i></p>
+    <ol class="p">
+      <li class="p">
+        <p class="boxp">Padding (space between border and letter)<br>{border: 2px solid black; padding: 30px;}</p>
+          </li>
+        <img src="pbl/padding.png" class="meta">
+        <img src="pbl/padding2.png" class="meta">
+      </li>
+      <li class="p">
+        <p class="boxp">Margin (space between outside of border)<br>{border: 2px solid black; margin: 30px;}<br>Shortcut way to describe about the border</p>
+          </li>
+        <img src="pbl/margin.png" class="meta">
+        <img src="pbl/margin2.png" class="meta">
+      </li>
+      <li class="p">
+        <p class="boxp">Color (color of the text)<br>{color: red;}<br>Color is vale and red is property and the we can choose the color as we wish</p>
+          </li>
+        <img src="pbl/color.png" class="meta">
+        <img src="pbl/color2.png" class="meta">
+      </li>
+      <li class="p">
+        <p class="boxp">Text-align (where the text gonna take place) center,left,right<br>{text-align: center;}<br>Text align is the code that can adjust the position of the test that we wanna put</p>
+        <img src="pbl/align.png" class="meta">
+        <img src="pbl/align2.png" class="meta">
+        <br>
+        <img src="pbl/align3.png" class="meta">
+        <img src="pbl/align4.png" class="meta">
+        <br>
+        <img src="pbl/align5.png" class="meta">
+        <img src="pbl/align6.png" class="meta">
+      </li>
+      <li class="p">
+        <p class="boxp">CSS Comment<br>/* comment */<br>If we do comment on something, we have to use /* smth*/ because that code is the comment code. In that code, we can put whatever we like and it won’t be shown default view.</p>
+          </li>
+        <img src="pbl/comment.png" class="meta">
+        <img src="pbl/comment2.png" class="meta">
+      </li>
+    </ol>
+    <br>
+  </div>
+  <br>
+</div>
+
+<div class="yup">
+  <div class="box_modelh" id="head">
+    <p id="box_modelh" id="select">Selector</p>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxp">id=”p1” < style> #p1{ } < /style> [*cannot start with No (1,2,..)*]<br>class=”ad” < style> .ad{ } < /style> [* class=”center” class=”center-large” center is common so it affected to both and when we wanna put some style for other, we have to define “center-large with another element*]</p>
+    <img src="pbl/selector.png" class="meta">
+    <img src="pbl/selector2.png" class="meta">
+    <br>
+    <img src="pbl/selector3.png" class="meta">
+    <img src="pbl/selector4.png" class="meta">
+  </div>
+  <br>
+  <div class="boxd col-12">
+    <p class="boxt"><i>CSS Universal Selector (*)</i></p>
+    <p class="boxp"> *{ …… } [*all the elements are affected*]<br>When we wanna do the same style, we have to use that universal selector.
+  </p>
+    <img src="pbl/uni.png" class="meta">
+    <img src="pbl/uni2.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>CSS Grouping Selector</i></p>
+    <p class="boxp">H1,h2,p,...{ }<br>If we wanna get affect for h1 and p, we have to use h1,p then style code.
+  </p>
+    <img src="pbl/gp.png" class="meta">
+    <img src="pbl/gp2.png" class="meta">
+    <br>
+  </div>
+</div>
+
+<div class="yup">
+  <div class="box_modelh" id="head">
+    <p id="box_modelh" id="combine">Combinators</p>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxp">• the relationship between the selectors<br>• 4 combinators
+      <ol class="p">
+        <li class="p">Descendant selector (space)</li>
+        <li class="p">Child selector (>)</li>
+        <li class="p">Adjacent sibling selector (+)</li>
+        <li class="p">General sibling selector (~)</li>
+      </ol></p>
+  </div>
+  <br>
+  <div class="boxd col-12">
+   <p class="boxt"><i>Descendant Selector</i></p>
+    <br>
+    <img src="pbl/des.png" class="meta">
+    <img src="pbl/des2.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>Child Selector</i></p>
+      <br>
+    <img src="pbl/child.png" class="meta">
+    <img src="pbl/child2.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>Adjacent(closest) Sibling Selector</i></p>
+      <br>
+    <img src="pbl/adj.png" class="meta">
+    <img src="pbl/adj2.png" class="meta">
+    <br>
+  </div>
+  <div class="boxd col-12">
+    <p class="boxt"><i>General Sibling Selector</i></p>
+      <br>
+    <img src="pbl/gen.png" class="meta">
+    <img src="pbl/gen2.png" class="meta">
+    <br>
+  </div>
+</div>
+
+
+
+  </div>
+<br>
+<br>
+<br>
+<footer>
+      <div class="footer-box">
+        <div class="footer-about">
+          <p>"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important."<br> (Bill Gates)</p>
+        </div>
+        <div class="foot">
+          <div class="footer-links">
+            <h3>Contact Us</h3>
+           <a href="https://t.me/educare_hour">Telegram</a>
+            <a href="https://www.facebook.com/profile.php?id=100091833836171&mibextid=ZbWKwL">Facebook</a>
+            <a href="https://instagram.com/educare_hour?igshid=ZDdkNTZiNTM=">Instagram</a>
+             <a href="https://twitter.com/educarehour">Twitter</a>
+          </div>
+
+          <div class="footer-links">
+            <h3>About</h3>
+            <a href="purpose.html">Purpose</a>
+            <a href="userguide.html">User Guide</a>
+            <a href="ourteam.html">Our team</a>
+            <a href="ourteam.html">About Us</a>
+          </div>
+
+          <div class="footer-links">
+            <h3>Menu</h3>
+            <a href="index.html">Home</a>
+            <a href="htmlmain2.html">HTML</a>
+            <a href="cssmain.html">CSS</a>
+            <a href="quizzes.html">Quizzes</a>
+          </div>
+        </div>
+      </div>
+      <p class="end" style="text-align: center">Copyright &copy; 2023 EducareHour All rights reserved</p>
+</footer>
+</body>
+</html>

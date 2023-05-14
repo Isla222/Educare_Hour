@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Overflow, Float, Clear Property</title>
+ <link rel="stylesheet" type="text/css" href="overflow.css">
+ <link rel="icon" type="image" href="pbl/fav.png">
+</head>
+<body>
+
+<div class="top-header">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="pbl/logo.jpg" alt="logo" class="logo-img">
+        </div>
+
+        <ul class="cols6 col">
+          <li class="li"><a href="index.html">HOME</a></li>
+          <li class="li"><a href="htmlmain2.html">HTML</a></li>
+          <li class="li"><a href="cssmain.html">CSS</a></li>
+          <li class="li"><a href="quizzes.html">QUIZZES</a></li>
+          <li class="li"><a href="ourteam.html" class="abtus">ABOUT US</a></li>
+          <li class="isa li"><a href="signin.html">SIGN UP</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+    <ul class="nav col-3">
+       <a href="#overflow"><p>✿ CSS Overflow</p></a>
+
+       <a href="#float"><p>✿ CSS Float</p></a>
+
+       <a href="#clear"><p>✿ CSS Clear Property</p></a>
+    </ul>
+
+ <div class="css col-6">
+  <p class="cssp"> <b>CSS Cascading Style Sheets</b><br><br><br>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
+ </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="border_h" id="overflow">
+  <p id="border_h">CSS overflow</p>
+</div>
+<div class="border_d">
+  <p class="border_t"><i>overflow</i></p>
+  <p class="border_p">The overflow peropety specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.</p>
+  <p class="border_p2">overflow: visible | hidden | scroll | auto </p>
+  <img src="pbl/overflow.png" class="overflowimg ">
+  <img src="pbl/overflow2.png" class="overflowimg2">
+</div>
+
+<div class="border_h" id="float">
+  <p id="border_h">CSS float</p>
+</div>
+<div class="border_d">
+  <p class="border_t"><i>Float</i></p>
+  <p class="border_p">The float CSS property places an element on the left or right side of its container, allowing text and inline element to wrap around it.</p>
+  <p class="border_p2">float: none | left | right | center</p>
+</div>
+
+<div class="size_h" id="clear">
+  <p id="size_h">CSS Clear Property</p>
+  <ul class="size_ul">
+    <li class="size_li">When we use the float property, and we want the next element below (not on right or left,) we will have to use the clear property. The clear property specifies what should happen with the element that is next to a floating element.</li>
+  </ul>
+</div>
+<div class="size_d">
+  <p class="size_t"><i>Clear</i></p>
+  <img src="pbl/clear.png" class="clear">
+  <img src="pbl/clear2.png" class="clear2">
+  <p class="size_t"><i>Clear Fix</i></p>
+  <img src="pbl/clearfix.png" class="clearfix">
+  <p class="border_p">.clearfix::after{<br>content:"";<br>clear:both;<br>display:table;</p>
+</div>
+<br>
+<br>
+<br>
+<footer>
+      <div class="footer-box">
+        <div class="footer-about">
+          <p>"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important."<br> (Bill Gates)</p>
+        </div>
+        <div class="foot">
+          <div class="footer-links">
+            <h3>Contact Us</h3>
+            <a href="https://t.me/educare_hour">Telegram</a>
+            <a href="https://www.facebook.com/profile.php?id=100091833836171&mibextid=ZbWKwL">Facebook</a>
+            <a href="https://instagram.com/educare_hour?igshid=ZDdkNTZiNTM=">Instagram</a>
+             <a href="https://twitter.com/educarehour">Twitter</a>
+          </div>
+
+          <div class="footer-links">
+            <h3>About</h3>
+            <a href="purpose.html">Purpose</a>
+            <a href="userguide.html">User Guide</a>
+            <a href="ourteam.html">Our team</a>
+            <a href="ourteam.html">About Us</a>
+          </div>
+
+          <div class="footer-links">
+            <h3>Menu</h3>
+            <a href="index.html">Home</a>
+            <a href="htmlmain2.html">HTML</a>
+            <a href="cssmain.html">CSS</a>
+            <a href="quizzes.html">Quizzes</a>
+          </div>
+        </div>
+      </div>
+      <p class="end" style="text-align: center">Copyright &copy; 2023 EducareHour All rights reserved</p>
+</footer>
+</body>
+</html>
